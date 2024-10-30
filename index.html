@@ -159,7 +159,7 @@
                 </div>
             </div>
             <!-- client reviews and comments -->
-             <div class="container mx-auto flex justify-around bg-white my-8 m-2 rounded-md shadow-md">
+             <div class="container mx-auto grid sm:grid-cols-2 md:grid-cols-4 justify-around  bg-white my-8 m-2 rounded-md shadow-md">
                 <div class="text-2xl font-bold text-center p-5">
                     <i class="fa-regular text-3xl fa-comment-dots"></i>
                     <h3>235+</h3>
@@ -183,13 +183,14 @@
                 
              </div>
              <!-- work process part -->
+             <div class="container mx-auto">
+                <button class=""><i class="fa-solid fa-arrow-right"></i>How we work</button>
+
+                <h1 class="text-3xl md:text-5xl font-bold text-center ">Our Work Process</h1>
+                <p class="text-sm md:text-base max-w-2xl mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+             </div>
               <!-- work process cards -->
-               <div class="container mx-auto text-center my-10 p-10   gap-5 ">
-                        <button class="text-xl font-normal rounded-full bg-slate-400 px-10 text-black "> <i class="fa-solid fa-arrow-right"></i>How we work</button>
-                    <h1 class="text-5xl font-bold">Our Works Process</h1>
-                    <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-               </div>
-              <div class="container mx-auto flex gap-5">
+              <div class="container mx-auto grid  grid-cols-1-1 sm:grid-cols-2 md:grid-cols-4  gap-5">
                 <div class="bg-purple-200 p-10 rounded-md text-wrap">
                     <i class="fa-solid text-4xl fa-lightbulb"></i>
                     <h3 class="text-3xl">Concept</h3>
@@ -213,7 +214,52 @@
               </div>
          </section>
          
-        
+        <!-- latest portfolio -->
+         <section class="container mx-auto">
+            <div>
+                <button class="flex bg-btn-primary px-10 rounded-full"><span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg></span> Explore our latest work
+                </button>
+                <h1 class="text-3xl text-center md:text-5xl font-bold p-5">Our Latest Portfolio</h1>
+                <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+            <div class="grid sm:grid-cols-9 grid-cols-1 border gap-4 p-4">
+                <div class="sm:col-span-6 col-span-1 flex gap-2 bg-white rounded-3xl p-4 " >
+                    <div><img class="w-600 h-600" src="/assets/img1.png" alt=""></div>
+                    <div> 
+                        <h3 class="text-xl font-semibold">Commercial</h3>
+                        <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+
+                        <button class="flex items-center text-xl pl-0 gap-2 px-3 rounded-full">View Details<span class="bg-btn-primary p-2 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg>
+                        </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="sm:col-span-3 col-span-1 bg-white rounded-3xl p-4">
+                     <img src="/assets/img2.png" alt="">
+                </div>
+                <div class="sm:col-span-2 col-span-1 bg-white rounded-3xl p-4">
+                    <img src="/assets/img3.png" alt="">
+                </div>
+                <div class="sm:col-span-5 col-span-1 flex gap-2 bg-white rounded-3xl p-4">
+                    <div>
+                        <img class="w-600 h-600" src="/assets/img4.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold">Commercial</h3>
+                        <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+
+                        <button class="flex items-center text-xl pl-0 gap-2 px-3 rounded-full">View Details<span class="bg-btn-primary p-2 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg>
+                        </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="sm:col-span-2 col-span-1 bg-white rounded-3xl p-4">
+                    <img src="/assets/img5.png" alt="">
+                </div>
+            </div>
+         </section>
     </main>
     
     <footer></footer>
